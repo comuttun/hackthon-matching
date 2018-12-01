@@ -15,7 +15,6 @@ body {
     width: 500px;
     height: 150px;
     overflow: auto;
-    text-align: center;
     margin: auto;
 }
 
@@ -31,8 +30,6 @@ body {
 }
 
 @media screen and (max-width: 414px) {
-
-
     .bothEnds_padding {
         padding-left: 2em;
         padding-right: 2em;
@@ -40,5 +37,20 @@ body {
     .scroll {
         display: block;
         width: auto;
+    }
+    .matching_store h3 {
+        text-align: left;
+    }
+    .matching_store p {
+        text-align: right;
+    }
+    .button input {
+        background-color: #bcf8f8;
+        display: block;
+        margin-left: auto;
+        width: 100%;
+    }
+    .button a {
+        text-decoration-line: none;
     }
 }
