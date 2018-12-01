@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="いまっちんぐ">
+    <meta name="description" content="いまっちんぐ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>いまっちんぐ</title>
+</head>
+<body>
+
+<div class="header">
+    <h2 class="introduction">あなたは誰？</h2>
+</div>
+
+<div class="choice">
+    <form action="" method="post">
+        <input type="hidden" name="_mode" value="conf">
+        <table>
+            <tbody>
+            <tr>
+                <th>お名前</th>
+                <td class="inputSplit">
+                    <fieldset>
+                        <input type="text" name="name_c_LastName" placeholder="姓名 または 店舗名" class="type_text validate[required]">
+                    </fieldset>
+                </td>
+
+            </tr>
+            <tr>
+                <th>
+                    メールアドレス
+                    <br>
+                </th>
+                <td>
+                    <fieldset>
+                        <input name="email" type="text" size="50" id="email" placeholder="you@example.co.jp (半角)" class="validate[required,custom[email]] input-w100">
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <th>キャラクター</th>
+                <td>
+                    <fieldset>
+                    <div class="radioTile">
+                        <div class="introduction">
+                            <span>ご自身のキャラクターを選択してください。</span>
+                        </div>
+                        <p class="character">
+                            <select name="character">
+                            <option value="cancellation">ドタキャンされた方</option>
+                            <option value="free">ヒマな方</option>
+                            <option value="drink">飲みたい方</option>
+                            <option value="store">キャンセルされた店舗</option>
+                        </select>
+                        </p>
+                    </div>
+                    </fieldset>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <p>
+            <input type="submit" value="登録"><input type="reset" value="リセット">
+        </p>
+    </form>
+
+
+
+</div>
+
+
+</body>
+</html>
