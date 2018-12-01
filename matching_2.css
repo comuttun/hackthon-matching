@@ -1,4 +1,22 @@
-h1 {
-    font-size: 30px;
-    text-align: center;
+@media screen and (max-width: 414px) {
+    .bothEnds_padding {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .button input {
+        background-color: #bcf8f8;
+        display: block;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .button a {
+        text-decoration-line: none;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
 }
