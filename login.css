@@ -7,10 +7,53 @@ body {
     font-size: 16px;
 }
 
+
 .header h2 {
     font-size: 50px;
+    text-align: center;
 }
 
 .choice p {
     font-size: 18px;
+}
+.button {
+    text-align: right;
+}
+.register, .reset {
+    display: inline-block;
+}
+.input .type_text {
+    width: 100%;
+}
+
+@media screen and (max-width: 414px) {
+    body {
+        width: auto;
+        margin: auto;
+    }
+    input {
+        background-color: #bcf8f8;
+        width: 100%;
+    }
+    select {
+        background-color: #bcf8f8;
+        width: auto;
+    }
+    }
+    form, table, tbody, tr, td, fieldset {
+        display: block;
+        width: auto;
+        margin: auto;
+    }
+    .bothEnds_padding {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .character {
+        margin: 0;
+    }
+    .choice {
+        width: auto;
+        margin: auto;
+    }
 }

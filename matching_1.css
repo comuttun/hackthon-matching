@@ -1,0 +1,44 @@
+@charset "utf-8";
+html {
+    background-color: white;
+}
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+.introduction {
+    text-align: center;
+}
+
+.scroll {
+    width: 500px;
+    height: 150px;
+    overflow: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.store {
+    text-align: center;
+}
+
+.matching_store {
+    height: auto;
+    width: auto;
+
+    
+}
+
+@media screen and (max-width: 414px) {
+
+
+    .bothEnds_padding {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .scroll {
+        display: block;
+        width: auto;
+    }
+}
